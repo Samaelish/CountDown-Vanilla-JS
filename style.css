@@ -6,3 +6,30 @@
 body {
   font-family: 'Lato', sans-serif;
 }
+h2 {
+  font-size: 5rem;
+  font-weight: bold;
+  padding: 2rem;
+}
+.coming-soon {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.countdown {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin: 0 2rem;
+}
+.day,
+.hour,
+.minute,
+.second {
+  font-size: 3rem;
+}
+.waiting {
+  height: 50vh;
+}
